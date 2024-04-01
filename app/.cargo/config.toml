@@ -1,3 +1,9 @@
+[net]
+offline = true
+
+
+### Replace the next entries based on o/p of make vendor
+
 [source.crates-io]
 replace-with = "vendored-sources"
 
