@@ -48,4 +48,4 @@ rev = "c90df0e"
 replace-with = "vendored-sources"
 
 [source.vendored-sources]
-directory = "/remote-source/guest-components-vendor/vendor"
+directory = "/remote-source/guest-components-vendor/app/vendor"
