@@ -1,0 +1,13 @@
+[advisories]
+ignore = [
+  "RUSTSEC-2020-0071", # `time` localtime_r segfault -- https://rustsec.org/advisories/RUSTSEC-2020-0071
+                       # This vulnerability is currently not affecting chrono 0.4.20+
+                       # See https://github.com/chronotope/chrono/issues/602
+                       # Chrono 0.5 will upgrade this depependency, but this will lead
+                       # to API breakages.
+                       #
+                       # This is a transitive depependency of tough
+  "RUSTSEC-2021-0139"  # ansi_term is no longer maintained, however this is a transient dependency of
+                       # the `tracing-subscriber` crate, which is a dev_dependency and so therefore
+                       # will not be included in a release build.
+]

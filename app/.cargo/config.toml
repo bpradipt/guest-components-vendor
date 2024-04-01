@@ -1,0 +1,45 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://gitee.com/anolis/csv-rs?rev=05fbacd"]
+git = "https://gitee.com/anolis/csv-rs"
+rev = "05fbacd"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/intel/SGXDataCenterAttestationPrimitives?tag=DCAP_1.16"]
+git = "https://github.com/intel/SGXDataCenterAttestationPrimitives"
+tag = "DCAP_1.16"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/kinvolk/azure-cvm-tooling?rev=2c2e411"]
+git = "https://github.com/kinvolk/azure-cvm-tooling"
+rev = "2c2e411"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/krustlet/oci-distribution.git?rev=f44124c"]
+git = "https://github.com/krustlet/oci-distribution.git"
+rev = "f44124c"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/mdaffin/loopdev?rev=c9f91e8f0326ce8a3364ac911e81eb32328a5f27"]
+git = "https://github.com/mdaffin/loopdev"
+rev = "c9f91e8f0326ce8a3364ac911e81eb32328a5f27"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/occlum/occlum?tag=v0.29.7"]
+git = "https://github.com/occlum/occlum"
+tag = "v0.29.7"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/sigstore/sigstore-rs.git?rev=69e8f33"]
+git = "https://github.com/sigstore/sigstore-rs.git"
+rev = "69e8f33"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/virtee/kbs-types?rev=c90df0e"]
+git = "https://github.com/virtee/kbs-types"
+rev = "c90df0e"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "/remote-source/guest-components-vendor/vendor"
